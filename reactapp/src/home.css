@@ -1,0 +1,110 @@
+/* body{
+    background-image: url("./images/Gandalf\ the\ Grey\ \(1920\ x\ 1080\).png");
+  } */
+  h1{
+    text-align: left;
+    margin-left: 8%;
+    color: white;
+    margin-top: 6%;
+  }
+  .meetingcard{
+    background-color: aliceblue;
+    color: black;
+    opacity: 0.7;
+    border-radius: 5px;
+    box-shadow: inset;
+    border-color: black;
+    width: fit-content;
+    padding: 15px 15px 15px 15px;
+     margin-top: 50px;
+     float: left;
+     margin-left: 10%;
+
+  }
+
+.about{
+  margin-left: 25%;
+  font-size: large;
+}
+
+
+
+.container7.j{
+  box-shadow: #000000;
+  background-color: rgb(76, 142, 248);
+}
+.container7 {
+  
+ margin-right: 75px;
+  justify-content: center;
+  width: auto;
+  padding: 10px 10px 10px 10px;
+  margin-block: 2rem;
+  border-radius: 5px;
+  border-color: black;
+  border-block-color: black;
+  border-style: solid;
+  box-shadow: #000000;
+  background-color: white;
+  opacity: 0.8;
+  color: #000000;
+  font-style: italic;
+  font-size: medium;
+  margin-left: 60%;
+
+}
+/* .jb{
+  background-color: rgb(116, 116, 133);
+  width: 145px;
+  align-content: center;
+  float: right;
+} */
+
+img {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: clamp(20rem, calc(20rem + 2vw), 22rem);
+  overflow: hidden;
+  box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 1em;
+  background: #000000;
+  background-color: #000000;
+
+
+}
+
+
+
+.card__body {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+
+.card__body h4 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+
+
+.user {
+  display: flex;
+  gap: .5rem;
+}
+
+.user__image {
+  border-radius: 50%;
+}
+
+.user__info > small {
+  color: #666;
+}
